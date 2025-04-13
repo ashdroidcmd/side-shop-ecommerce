@@ -20,10 +20,10 @@ return (
             disableOnInteraction: false,
             }}
             navigation={true} pagination={true} modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
-            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/hero/1.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/hero/2.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/hero/3.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/hero/1.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/1.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/2.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/3.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/1.jpg" alt="" /></SwiperSlide>
         </Swiper>
         </div>
     </section>

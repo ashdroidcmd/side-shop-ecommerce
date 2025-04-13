@@ -24,28 +24,28 @@ return (
             <img className="img-fluid logo-img align-self-center" src="/brands/acer.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/brands/asus.png" alt="" />
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/asus.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/brands/dell.png" alt="" />
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/dell.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/brands/lenovo.png" alt="" />
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/lenovo.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/brands/logitech.png" alt="" />
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/logitech.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/brands/msi.png" alt="" />
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/msi.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/brands/razer.png" alt="" />
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/razer.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/brands/rog.png" alt="" />
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/rog.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/brands/steelseries.png" alt="" />
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/steelseries.png" alt="" />
         </SwiperSlide>
     </Swiper>
 )

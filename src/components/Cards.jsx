@@ -29,7 +29,7 @@ const Cards = () => {
             <Link to={`/product/${product.slug}`} className="text-decoration-none text-dark">
               <div className="card h-100 shadow">
                 <img
-                  src={product.images?.[0] || '/placeholder.jpg'}
+                  src={`/side-shop-ecommerce/${product.images?.[0]}` || '/placeholder.jpg'}
                   className="card-img-top img-fluid"
                   alt={product.name}
                 />

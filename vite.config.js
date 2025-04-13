@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/side-shop-ecommerce",
+  build: {
+    chunkSizeWarningLimit: 1000,
+  },
 })

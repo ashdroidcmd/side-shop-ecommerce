@@ -6,7 +6,7 @@ return (
     <header className="bg-header-footer border-bottom border-secondary">
       <nav className="navbar navbar-dark bg-header-footer navbar-expand-lg rounded container" aria-label="Eleventh navbar example">
         <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/"><img src="/logo-white.png" className="img-fluid" alt="Logo" /></NavLink>
+          <NavLink className="navbar-brand" to="/"><img src="/side-shop-ecommerce/logo-white.png" className="img-fluid" alt="Logo" /></NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
