@@ -1,0 +1,88 @@
+/* Custom */
+main{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.bg-header-footer{background-color: #1A1A1A;}
+.bg-custom-dark{background-color: #121212;}
+
+/* Swiper */
+.hero-swiper-slide {
+  width: 100%;
+}
+.hero-swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Header */
+.navbar-brand img{
+    height: auto;
+    max-height: 110px;
+}
+
+/* Brands */
+/* .brands-img {
+  max-height: 150px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.brands-swiper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;   
+} */
+
+.logo-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.logo-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+
+/* Footer */
+#footer-logo{
+  height: auto;
+  max-height: 200px;
+}
+
+
+.productSwiper1{
+  width: auto;
+  height: auto; 
+  max-width: 500px;
+  max-height: 500px;     
+  
+}
+.productSwiper1 img,
+.productSwiper2 img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.productSwiper2 {
+  max-height: 100px; /* thumbnail row height */
+  overflow: hidden;
+}
+
+
+.cart-image{
+  height: 50px;
+  width: 50px;
+}
