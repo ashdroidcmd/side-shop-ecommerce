@@ -61,10 +61,6 @@ return (
                 />
             </SwiperSlide>
             ))}
-
-            <SwiperSlide>
-                <img className="img-fluid" src="/products/Gpu/INTEL Arc A750 Limited Edition 8GB/1.jpg"/>
-            </SwiperSlide>
         </Swiper>
 
         <Swiper
@@ -77,9 +73,13 @@ return (
             className="productSwiper2 py-2"
         >
             {product.images && product.images.map((imgSrc, index) => (
-                <SwiperSlide key={index}>
-                    <img className="img-fluid" src={imgSrc} alt={`Product ${index + 1}`} />
-                </SwiperSlide>
+            <SwiperSlide key={index}>
+                <img
+                className="img-fluid"
+                src={`${import.meta.env.BASE_URL}${encodeURI(imgSrc)}`}
+                alt={`Product ${index + 1}`}
+                />
+            </SwiperSlide>
             ))}
         </Swiper>
     </div>
