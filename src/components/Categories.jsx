@@ -35,32 +35,32 @@ return (
         >
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop">
-                    <img className="img-fluid rounded-2" src="categories/cpu.jpg" alt="CPU" />
+                    <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/cpu.jpg" alt="CPU" />
                     <h5 className="py-3">CPU</h5>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
-                <img className="img-fluid rounded-2" src="categories/gpu.jpg" alt="GPU" />
+                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/gpu.jpg" alt="GPU" />
                 <h5 className="py-3">GPU</h5>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
-                <img className="img-fluid rounded-2" src="categories/laptop.jpg" alt="Laptop" />
+                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/laptop.jpg" alt="Laptop" />
                 <h5 className="py-3">Laptop</h5>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
-                <img className="img-fluid rounded-2" src="categories/mobo.jpg" alt="MOBO" />
+                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/mobo.jpg" alt="MOBO" />
                 <h5 className="py-3">MOBO</h5>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
-                <img className="img-fluid rounded-2" src="categories/monitor.jpg" alt="Monitor" />
+                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/monitor.jpg" alt="Monitor" />
                 <h5 className="py-3">Monitor</h5>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
-                <img className="img-fluid rounded-2" src="categories/ram.jpg" alt="RAM" />
+                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/ram.jpg" alt="RAM" />
                 <h5 className="py-3">RAM</h5>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
-                <img className="img-fluid rounded-2" src="categories/storage.jpg" alt="Storage" />
+                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/storage.jpg" alt="Storage" />
                 <h5 className="py-3">Storage</h5>
             </SwiperSlide>
         </Swiper>
