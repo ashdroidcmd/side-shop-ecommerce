@@ -53,9 +53,13 @@ return (
             className="productSwiper1"
         >
             {product.images && product.images.map((imgSrc, index) => (
-                <SwiperSlide key={index}>
-                    <img className="img-fluid" src={imgSrc} alt={`Product ${index + 1}`} />
-                </SwiperSlide>
+            <SwiperSlide key={index}>
+                <img
+                className="img-fluid"
+                src={`${import.meta.env.BASE_URL}${encodeURI(imgSrc)}`}
+                alt={`Product ${index + 1}`}
+                />
+            </SwiperSlide>
             ))}
 
             <SwiperSlide>

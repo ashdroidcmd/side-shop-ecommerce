@@ -21,7 +21,7 @@ return (
         className="container bg-white rounded-5"
     >
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img align-self-center" src="/brands/acer.png" alt="" />
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/acer.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
             <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/asus.png" alt="" />
