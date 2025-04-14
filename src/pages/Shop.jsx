@@ -1,12 +1,28 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from "react";
+import Breadcrumb from "../components/Breadcrumbs";
 
-const products = [
-    { id: 1, name: 'Ryzen 5 5600X', category: 'CPU', price: 7999, image: '/categories/cpu.jpg' },
-    { id: 2, name: 'RTX 3060', category: 'GPU', price: 15999, image: '/categories/gpu.jpg' },
-    { id: 3, name: 'ASUS B550 Motherboard', category: 'Mobo', price: 4999, image: '/categories/mobo.jpg' },
-];
+import { db } from "../firebase";
+import { collection, getDocs } from "firebase/firestore";
+import { Link } from "react-router-dom";
 
 const ShopPage = () => {
+  useEffect(() => {
+    document.title = "Side Shop | Shop";
+  }, []);
+  const [products, setProducts] = useState([]);
+  
+    useEffect(() => {
+      const fetchData = async () => {
+        const querySnapshot = await getDocs(collection(db, "products"));
+        const items = [];
+        querySnapshot.forEach((doc) => {
+          items.push(doc.data());
+        });
+        setProducts(items);
+      };
+  
+      fetchData();
+    }, []);
     const [filters, setFilters] = useState({
         CPU: true,
         GPU: true,
@@ -27,7 +43,8 @@ const ShopPage = () => {
     );
 
 return (
-    <div className="container py-4">
+    <div className="container py-2">
+        <Breadcrumb />
         <div className="row">
         {/* Left Filters */}
         <div className="col-md-3 mb-4">
@@ -64,31 +81,25 @@ return (
 
         {/* Right Products */}
         <div className="col-md-9">
-          <div className="row g-4">
-            {filtered.length > 0 ? (
-              filtered.map((p) => (
-                <div className="col-12 col-sm-6 col-md-4" key={p.id}>
-                  <div className="card h-100">
-                    <img
-                      src={p.image}
-                      alt={p.name}
-                      className="card-img-top"
-                      style={{ height: '180px', objectFit: 'contain' }}
-                    />
-                    <div className="card-body d-flex flex-column">
-                      <h5 className="card-title">{p.name}</h5>
-                      <p className="card-text mb-3">₱{p.price.toLocaleString()}</p>
-                      <button className="btn btn-dark mt-auto">Add to Cart</button>
+          <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-2 mb-2">
+                  {products.map((product) => (
+                    <div key={product.id} className="col">
+                      <Link to={`/product/${product.slug}`} className="text-decoration-none text-dark">
+                        <div className="card h-100 shadow">
+                          <img
+                            src={`/side-shop-ecommerce/${product.images?.[0]}` || '/placeholder.jpg'}
+                            className="card-img-top img-fluid"
+                            alt={product.name}
+                          />
+                          <div className="card-body">
+                            <p className="card-title mb-1">{product.name}</p>
+                            <h5 className="card-text">P{product.price}</h5>
+                          </div>
+                        </div>
+                      </Link>
                     </div>
-                  </div>
+                  ))}
                 </div>
-              ))
-            ) : (
-              <div className="col">
-                <p>No products found.</p>
-              </div>
-            )}
-          </div>
         </div>
       </div>
     </div>

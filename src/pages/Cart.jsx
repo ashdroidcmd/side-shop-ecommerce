@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 const Cart = () => {
+    useEffect(() => {
+        document.title = "Side Shop | Cart";
+    }, []);
 return (
     <>
     <section className="container">

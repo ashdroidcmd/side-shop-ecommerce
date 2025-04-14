@@ -1,6 +1,9 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 
 const Wishlist = () => {
+    useEffect(() => {
+        document.title = "Side Shop | Wishlist";
+    }, []);
 return (
     <section className="container">
         <div className="row my-3">

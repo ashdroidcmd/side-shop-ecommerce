@@ -10,12 +10,11 @@ const Home = () => {
 }, []);
 return (
     <>
-    <main className="">
-        <Hero />
-        <Brands />
-        <Categories />
-        <Cards />
-    </main>
+    <Hero />
+    <Brands />
+    <Categories />
+    <h1 className="container">Just For You</h1>
+    <Cards />
     </>
 )
 }

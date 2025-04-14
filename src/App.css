@@ -12,31 +12,18 @@ main{
 }
 .hero-swiper-slide img {
   width: 100%;
-  height: 100%;
+  height: auto;
+  max-height: max-content;
   object-fit: cover;
 }
 
 /* Header */
 .navbar-brand img{
-    height: auto;
-    max-height: 110px;
+  height: auto;
+  max-height: 90px;
 }
 
 /* Brands */
-/* .brands-img {
-  max-height: 150px;
-  max-width: 100%;
-  object-fit: contain;
-}
-
-.brands-swiper{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 150px;   
-} */
-
 .logo-slide {
   display: flex;
   justify-content: center;
@@ -55,6 +42,7 @@ main{
 }
 
 
+
 /* Footer */
 #footer-logo{
   height: auto;
@@ -62,6 +50,7 @@ main{
 }
 
 
+/* Products */
 .productSwiper1{
   width: auto;
   height: auto; 
@@ -77,7 +66,7 @@ main{
 }
 
 .productSwiper2 {
-  max-height: 100px; /* thumbnail row height */
+  max-height: 100px;
   overflow: hidden;
 }
 

@@ -1,10 +1,9 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import { Pagination } from 'swiper/modules';
 
 // Import Swiper styles
-import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css';
 
@@ -13,13 +12,13 @@ return (
     <section className="mb-3">
         <div className="container-fluid">
         <Swiper 
-            spaceBetween={30}
+            spaceBetween={5}
             centeredSlides={true}
             autoplay={{
             delay: 2500,
             disableOnInteraction: false,
             }}
-            navigation={true} pagination={true} modules={[Navigation, Pagination, Autoplay]} className="mySwiper">
+            pagination={true} modules={[Pagination, Autoplay]} className="mySwiper">
             <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/1.jpg" alt="" /></SwiperSlide>
             <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/2.jpg" alt="" /></SwiperSlide>
             <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/3.jpg" alt="" /></SwiperSlide>

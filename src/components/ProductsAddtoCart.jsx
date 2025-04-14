@@ -25,22 +25,20 @@ const ProductsAddtoCart = () => {
     if (!product) return <p></p>;
 
 return (
-    <div className="col-12 col-md-6">
+    <div className="col-12 col-md-6 my-3">
         <h1 className="border-bottom border-secondary">{product.name}</h1>
-        <div className="d-flex flex-row flex-wrap">
-            <h6 className="me-5">Ratings: 5 Stars</h6>
-            <h6 className="me-5">Sold: 325</h6>
-            <h6>Stock: {product.stock}</h6>
-        </div>
-        <h3>P{product.price}</h3>
-        <div className="d-flex flex-row flex-wrap border-bottom border-secondary pb-3">
-            <button type="button" className="btn btn-lg btn-dark me-2">Add to Cart</button>
-            <button type="button" className="btn btn-lg btn-outline-dark">Wishlist</button>
-        </div>
-        <div>
-        <small>Categories: PC Components, Processors</small>
-        </div>
-        </div>
+            <div className="d-flex flex-row flex-wrap">
+                <h6 className="me-5">Ratings: 5 Stars</h6>
+                <h6 className="me-5">Sold: 325</h6>
+                <h6>Stock: {product.stock}</h6>
+            </div>
+                <h3>&#8369;{product.price}</h3>
+            <div className="d-flex flex-row flex-wrap border-bottom border-secondary pb-3">
+                <button type="button" className="btn btn px-4 py-2 btn-dark me-2">Add to Cart</button>
+                <button type="button" className="btn btn px-4 py-2 btn-outline-dark">Wishlist</button>
+            </div>
+                <small>Categories: PC Components, Processors</small>
+            </div>
 )
 }
 

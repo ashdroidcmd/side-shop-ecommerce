@@ -1,4 +1,9 @@
+import React, {useEffect} from 'react';
+
 const ComingSoon = () => {
+    useEffect(() => {
+        document.title = "Side Shop | Coming Soon";
+    }, []);
 return (
     <>
     <section className="container vh-100">
