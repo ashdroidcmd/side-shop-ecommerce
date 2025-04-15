@@ -41,28 +41,40 @@ return (
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
+                <Link to="/shop" className="text-decoration-none">
                 <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/gpu.jpg" alt="GPU" />
-                <h6 className="">GPU</h6>
+                <h6 className="pb-2 text-black">GPU</h6>
+                </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
+                <Link to="/shop" className="text-decoration-none">
                 <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/laptop.jpg" alt="Laptop" />
-                <h6 className="pb-2">Laptop</h6>
+                <h6 className="pb-2 text-black">Laptop</h6>
+                </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
+                <Link to="/shop" className="text-decoration-none">
                 <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/mobo.jpg" alt="MOBO" />
-                <h6 className="pb-2">MOBO</h6>
+                <h6 className="pb-2 text-black">Motherboard</h6>
+                </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
+                <Link to="/shop" className="text-decoration-none">
                 <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/monitor.jpg" alt="Monitor" />
-                <h6 className="pb-2">Monitor</h6>
+                <h6 className="pb-2 text-black">Monitor</h6>
+                </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
+                <Link to="/shop" className="text-decoration-none">
                 <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/ram.jpg" alt="RAM" />
-                <h6 className="pb-2">RAM</h6>
+                <h6 className="pb-2 text-black">RAM</h6>
+                </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
+                <Link to="/shop" className="text-decoration-none">
                 <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/storage.jpg" alt="Storage" />
-                <h6 className="pb-2">Storage</h6>
+                <h6 className="pb-2 text-black">Storage</h6>
+                </Link>
             </SwiperSlide>
         </Swiper>
     </section>

@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { collection, query, where, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
 
+import CustomButtons from './CustomButtons';
 
 const ProductsAddtoCart = () => {
     const { slug } = useParams();
@@ -24,6 +25,7 @@ const ProductsAddtoCart = () => {
 
     if (!product) return <p></p>;
 
+    
 return (
     <div className="col-12 col-md-6 my-3">
         <h1 className="border-bottom border-secondary">{product.name}</h1>
@@ -34,8 +36,8 @@ return (
             </div>
                 <h3>&#8369;{product.price}</h3>
             <div className="d-flex flex-row flex-wrap border-bottom border-secondary pb-3">
-                <button type="button" className="btn btn px-4 py-2 btn-dark me-2">Add to Cart</button>
-                <button type="button" className="btn btn px-4 py-2 btn-outline-dark">Wishlist</button>
+                <CustomButtons className="btn px-4 py-2 btn-outline-dark me-2"/>
+                <CustomButtons modalMessage = "Item Added to Wishlist!" buttonText='Add to Wishlist' className="btn btn-dark px-4 py-2" />
             </div>
                 <small>Categories: PC Components, Processors</small>
             </div>

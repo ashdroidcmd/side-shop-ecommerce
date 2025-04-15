@@ -27,8 +27,8 @@ if (!product) return <p></p>;
 return (
     <>
     <ul className="nav nav-tabs" id="myTab" role="tabList">
-        <li className="nav-item text-black" role="presentation">
-            <button className="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Description</button>
+        <li className="nav-item" role="presentation">
+            <button className="nav-link active text-black" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Description</button>
         </li>
         <li className="nav-item" role="presentation">
             <button className="nav-link text-black" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Specification</button>

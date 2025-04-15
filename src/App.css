@@ -75,3 +75,14 @@ main{
   height: 50px;
   width: 50px;
 }
+
+
+.text-truncate{
+  max-width: 100%;
+}
+
+.img-thumbnail{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}

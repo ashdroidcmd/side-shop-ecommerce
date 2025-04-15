@@ -15,9 +15,9 @@ const Product = () => {
   return (
     <>
     <section className="container">
-      <div className="py-2">
+      <div className="pt-3">
         <Breadcrumb />
-        <div className="row py-3">
+        <div className="row border-top py-4">
           <ProductsSwipers />
           <ProductsAddtoCart />
         </div>
