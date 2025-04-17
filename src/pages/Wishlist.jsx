@@ -7,12 +7,12 @@ const Wishlist = () => {
     document.title = "Side Shop | Wishlist";
 }, []);
   return (
-    <section className="container py-4 vh-100">
+    <section className="container py-4">
       <div className="row g-4">
         {/* Wishlist Items Section */}
         <div className="col-12">
           <h4 className="mb-3">Your Wishlist</h4>
-          <div className="table-responsive">
+          <div className="responsive-table-wrapper">
             <table className="table align-middle">
               <thead className="table-dark">
                 <tr>
@@ -30,12 +30,12 @@ const Wishlist = () => {
                       alt="CPU"
                       className="img-thumbnail"
                     />
-                    <span className="ms-3">CPU</span>
+                    <span className="ms-3">Ryzen 3 3200G</span>
                   </td>
-                  <td className="text-end">₱3,000</td>
+                  <td className="text-end">₱6,000.00</td>
                   <td className="text-center">
-                    <CustomButtons className="btn btn-sm btn-outline-dark me-2"/>
-                    <button className="btn btn-sm btn-danger">✕</button>
+                    <CustomButtons className="btn btn-sm btn-dark me-2"/>
+                    <CustomButtons className="btn btn-sm btn-danger" buttonText="X" modalMessage="Removed from Wishlist"/>
                   </td>
                 </tr>
                 <tr>
@@ -45,12 +45,12 @@ const Wishlist = () => {
                       alt="Storage"
                       className="img-thumbnail"
                     />
-                    <span className="ms-3">Storage</span>
+                    <span className="ms-3">Samsung 500GB NVME M.2</span>
                   </td>
-                  <td className="text-end">₱5,000</td>
+                  <td className="text-end">₱5,000.00</td>
                   <td className="text-center">
-                    <CustomButtons className="btn btn-sm btn-outline-dark me-2"/>
-                    <button className="btn btn-sm btn-danger">✕</button>
+                    <CustomButtons className="btn btn-sm btn-dark me-2"/>
+                    <CustomButtons className="btn btn-sm btn-danger" buttonText="X" modalMessage="Removed from Wishlist"/>
                   </td>
                 </tr>
                 <tr>
@@ -60,12 +60,12 @@ const Wishlist = () => {
                       alt="GPU"
                       className="img-thumbnail"
                     />
-                    <span className="ms-3">GPU</span>
+                    <span className="ms-3">ASUS Nvidia RTX 3070</span>
                   </td>
-                  <td className="text-end">₱3,000</td>
+                  <td className="text-end">₱41,000.00</td>
                   <td className="text-center">
-                    <CustomButtons className="btn btn-sm btn-outline-dark me-2"/>
-                    <button className="btn btn-sm btn-danger">✕</button>
+                    <CustomButtons className="btn btn-sm btn-dark me-2"/>
+                    <CustomButtons className="btn btn-sm btn-danger" buttonText="X" modalMessage="Removed from Wishlist"/>
                   </td>
                 </tr>
               </tbody>

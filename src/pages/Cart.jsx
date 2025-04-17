@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import CustomButtons from '../components/CustomButtons';
 import { Link } from 'react-router-dom';
 
 const Cart = () => {
@@ -6,12 +7,12 @@ const Cart = () => {
         document.title = "Side Shop | Cart";
 }, []);
 return (
-    <section className="container py-4 vh-100">
+    <section className="container py-4">
         <div className="row g-4">
         {/* Cart Items Section */}
         <div className="col-12 col-lg-8">
             <h4 className="mb-3">Your Cart</h4>
-            <div className="table-responsive">
+            <div className="responsive-table-wrapper">
                 <table className="table align-middle">
 
                     <thead className="table-dark">
@@ -32,7 +33,7 @@ return (
                             src="/side-shop-ecommerce/categories/cpu.jpg"
                             alt="CPU"
                             className="img-thumbnail"                            />
-                            <span className="ms-3">CPU</span>
+                            <span className="ms-3">Ryzen 3 3200G</span>
                         </td>
                         <td className="text-end">₱3,000</td>
                         <td className="text-center">
@@ -44,7 +45,7 @@ return (
                         </td>
                         <td className="text-end">₱13,000</td>
                         <td>
-                            <button className="btn btn-sm btn-danger">✕</button>
+                            <CustomButtons className="btn btn-sm btn-danger" buttonText="X" modalMessage="Removed from Cart"/>
                         </td>
                         </tr>
                         <tr>
@@ -53,7 +54,7 @@ return (
                             src="/side-shop-ecommerce/categories/storage.jpg"
                             alt="CPU"
                             className="img-thumbnail"                            />
-                            <span className="ms-3">Storage</span>
+                            <span className="ms-3">Samsung 500GB NVME M.2</span>
                         </td>
                         <td className="text-end">₱5,000</td>
                         <td className="text-center">
@@ -65,7 +66,7 @@ return (
                         </td>
                         <td className="text-end">₱3,000</td>
                         <td>
-                            <button className="btn btn-sm btn-danger">✕</button>
+                            <CustomButtons className="btn btn-sm btn-danger" buttonText="X" modalMessage="Removed from Cart"/>
                         </td>
                         </tr>
                         <tr>
@@ -74,7 +75,7 @@ return (
                             src="/side-shop-ecommerce/categories/gpu.jpg"
                             alt="CPU"
                             className="img-thumbnail"                            />
-                            <span className="ms-3">CPU</span>
+                            <span className="ms-3">ASUS Nvidia RTX 3070</span>
                         </td>
                         <td className="text-end">₱3,000</td>
                         <td className="text-center">
@@ -86,7 +87,7 @@ return (
                         </td>
                         <td className="text-end">₱3,000</td>
                         <td>
-                            <button className="btn btn-sm btn-danger">✕</button>
+                            <CustomButtons className="btn btn-sm btn-danger" buttonText="X" modalMessage="Removed from Cart"/>
                         </td>
                         </tr>
                     </tbody>
@@ -106,7 +107,7 @@ return (
                             <span>Total</span>
                             <strong>₱3,000</strong>
                         </div>
-                    <Link to="/coming-soon"><button className="btn btn-dark w-100">Proceed to Checkout</button></Link>
+                    <Link to="/thank-you"><button className="btn btn-dark w-100">Proceed to Checkout</button></Link>
                 </div>
             </div>
         </div>

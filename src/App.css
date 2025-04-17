@@ -1,12 +1,11 @@
-/* Custom */
+/* Custom  Font background for footer and header*/
 main{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 .bg-header-footer{background-color: #1A1A1A;}
-.bg-custom-dark{background-color: #121212;}
 
-/* Swiper */
+/* Swiper Hero Utils*/
 .hero-swiper-slide {
   width: 100%;
 }
@@ -17,13 +16,13 @@ main{
   object-fit: cover;
 }
 
-/* Header */
+/* Header image*/
 .navbar-brand img{
   height: auto;
   max-height: 90px;
 }
 
-/* Brands */
+/* Brands image utilities*/
 .logo-slide {
   display: flex;
   justify-content: center;
@@ -34,7 +33,6 @@ main{
   margin-top: auto;
   margin-bottom: auto;
 }
-
 .logo-img {
   max-width: 100%;
   max-height: 100%;
@@ -50,7 +48,7 @@ main{
 }
 
 
-/* Products */
+/* Product Page  Swiper.js*/
 .productSwiper1{
   width: auto;
   height: auto; 
@@ -64,25 +62,42 @@ main{
   height: auto;
   object-fit: contain;
 }
-
 .productSwiper2 {
   max-height: 100px;
   overflow: hidden;
 }
 
 
+/* Wishlist and Cart Page Table images and utilities*/
 .cart-image{
   height: 50px;
   width: 50px;
 }
+.responsive-table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table td,
+.table th {
+  white-space: nowrap;
+  min-width: 150px;
+}
 
 
+/* Cards Section */
 .text-truncate{
   max-width: 100%;
 }
 
+/* Shop Page */
 .img-thumbnail{
   width: 80px;
   height: 80px;
   object-fit: cover;
 }
+
+/* Login and Register Width */
+.login-width{
+  width: 600px;
+}
+
