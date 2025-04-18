@@ -22,5 +22,5 @@ Side Shop is a modern and responsive e-commerce front-end built using React, des
 
 ## Contact
 Feel free to reach out to discuss the project or potential collaboration:
-📧 Email: ashgesite25@gmail.com
-💻 GitHub: ashdroidcmd
+- 📧 Email: ashgesite25@gmail.com
+- 💻 GitHub: ashdroidcmd
