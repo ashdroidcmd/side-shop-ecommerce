@@ -13,14 +13,14 @@ Side Shop is a modern and responsive e-commerce front-end built using React, des
 - Browse Products: Navigate through different product categories and featured items using Swiper.js sliders.
 - Add Products: Admins can add new products to the Firebase database, which reflect instantly on the front-end.
 
-##Technologies Used
+## Technologies Used
 - React – For building dynamic and reusable UI components.
 - Bootstrap CSS – For fast, responsive layout styling.
 - HashRouter – For SPA navigation.
 - Swiper.js – For smooth, touch-enabled carousels.
 - Firebase – For product data management and real-time updates.
 
-##Contact
+## Contact
 Feel free to reach out to discuss the project or potential collaboration:
 📧 Email: ashgesite25@gmail.com
 💻 GitHub: ashdroidcmd
