@@ -76,6 +76,24 @@ return (
                 <h6 className="pb-2 text-black">Storage</h6>
                 </Link>
             </SwiperSlide>
+            <SwiperSlide className="card shadow text-center">
+                <Link to="/shop" className="text-decoration-none">
+                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/case.jpg" alt="Case" />
+                <h6 className="pb-2 text-black">Case</h6>
+                </Link>
+            </SwiperSlide>
+            <SwiperSlide className="card shadow text-center">
+                <Link to="/shop" className="text-decoration-none">
+                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/fans.jpg" alt="Fans" />
+                <h6 className="pb-2 text-black">Fans</h6>
+                </Link>
+            </SwiperSlide>
+            <SwiperSlide className="card shadow text-center">
+                <Link to="/shop" className="text-decoration-none">
+                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/psu.jpg" alt="Psu" />
+                <h6 className="pb-2 text-black">PSU</h6>
+                </Link>
+            </SwiperSlide>
         </Swiper>
     </section>
     </>

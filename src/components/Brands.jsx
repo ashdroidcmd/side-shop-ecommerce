@@ -63,6 +63,27 @@ return (
         <SwiperSlide className="logo-slide">
             <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/steelseries.png" alt="" />
         </SwiperSlide>
+        <SwiperSlide className="logo-slide">
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/alienware.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="logo-slide">
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/coolermaster.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="logo-slide">
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/corsair.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="logo-slide">
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/hyperx.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="logo-slide">
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/sennheiser.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="logo-slide">
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/wd.png" alt="" />
+        </SwiperSlide>
+        <SwiperSlide className="logo-slide">
+            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/zowie.png" alt="" />
+        </SwiperSlide>
     </Swiper>
 )
 }
