@@ -8,21 +8,18 @@ import 'swiper/css';
 const Hero = () => {
 return (
     <section className="mb-3">
-        <div className="container-fluid">
         <Swiper 
-            spaceBetween={5}
+            spaceBetween={0}
             centeredSlides={true}
             autoplay={{
             delay: 2500,
             disableOnInteraction: false,
             }}
             pagination={true} modules={[Autoplay]} className="mySwiper">
-            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/1.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/2.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/3.jpg" alt="" /></SwiperSlide>
-            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/1.jpg" alt="" /></SwiperSlide>
+            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/1.png" alt="" /></SwiperSlide>
+            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/2.png" alt="" /></SwiperSlide>
+            <SwiperSlide className="hero-swiper-slide"><img className="img-fluid" src="/side-shop-ecommerce/hero/3.png" alt="" /></SwiperSlide>
         </Swiper>
-        </div>
     </section>
 )
 }
