@@ -1,12 +1,26 @@
-# React + Vite
+# Side Shop
+Side Shop is a modern and responsive e-commerce front-end built using React, designed to provide a seamless shopping experience. This project focuses on delivering a clean UI and dynamic product browsing interface, integrating Firebase for real-time product data management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- Responsive Design: Optimized for all screen sizes, ensuring a smooth experience on mobile, tablet, and desktop.
+- Scalability: Structured to support future growth and integration of additional features like authentication or payment gateways.
+- HashRouter Navigation: Enables single-page app routing with URL hash-based navigation.
+- Swiper.js Carousel: Interactive product carousels enhance user engagement and browsing.
+- React + Bootstrap: A combination of React’s component-driven architecture and Bootstrap’s responsive layout system for a polished interface.
+- Firebase Integration: Add and manage products dynamically with real-time updates via Firebase.
 
-Currently, two official plugins are available:
+## Usage
+- Browse Products: Navigate through different product categories and featured items using Swiper.js sliders.
+- Add Products: Admins can add new products to the Firebase database, which reflect instantly on the front-end.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- React – For building dynamic and reusable UI components.
+- Bootstrap CSS – For fast, responsive layout styling.
+- HashRouter – For SPA navigation.
+- Swiper.js – For smooth, touch-enabled carousels.
+- Firebase – For product data management and real-time updates.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contact
+Feel free to reach out to discuss the project or potential collaboration:
+- 📧 Email: z.wolff25@gmail.com
+- 💻 GitHub: ashdroidcmd
