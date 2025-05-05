@@ -27,22 +27,24 @@ return (
             aria-labelledby={`${modalId}-label`}
             aria-hidden="true"
         >
-            <div className="modal-dialog modal-sm">
+            <div className="modal-dialog modal-dialog-centered modal-sm">
             <div className="modal-content">
                 <div className="modal-body">
                 {modalMessage}
                 </div>
                 <div className="modal-footer">
+                
                 <Link to="/cart">
-                    <button type="button" className="btn btn-dark btn-sm" data-bs-dismiss="modal">
+                    <button type="button" className="btn btn-dark" data-bs-dismiss="modal">
                     View Cart
                     </button>
                 </Link>
                 <Link to="/wishlist">
-                    <button type="button" className="btn btn-dark btn-sm" data-bs-dismiss="modal">
+                    <button type="button" className="btn btn-dark" data-bs-dismiss="modal">
                     View Wishlist
                     </button>
                 </Link>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">X</button>
                 </div>
             </div>
             </div>

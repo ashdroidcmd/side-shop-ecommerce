@@ -6,8 +6,7 @@ import { Link } from "react-router-dom";
 
 import CustomButtons from "./CustomButtons";
 
-const Cards = ({ isProductPage = false, className="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-2 mb-2" }) => {
-  // Fetch Product Data from Firebase
+const Cards = ({ filters = { categories: [], brands: [], price: Infinity }, isProductPage = false, className="row row-cols-2 row-cols-md-4 row-cols-lg-6 g-2 mb-2" }) => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -15,7 +14,7 @@ const Cards = ({ isProductPage = false, className="row row-cols-2 row-cols-md-4 
       const querySnapshot = await getDocs(collection(db, "products"));
       const items = [];
       querySnapshot.forEach((doc) => {
-        items.push(doc.data());
+        items.push({ id: doc.id, ...doc.data() });
       });
       setProducts(items);
     };
@@ -23,11 +22,26 @@ const Cards = ({ isProductPage = false, className="row row-cols-2 row-cols-md-4 
     fetchData();
   }, []);
 
-  // Limit Products if in Product Page into 6 Cards
-  const displayedProducts = isProductPage ? products.slice(0, 6) : products;
+  const filteredProducts = products.filter((product) => {
+    const parsedPrice = parseFloat(product.price.replace(/,/g, ''));
+
+    const matchCategory =
+      filters.categories.length === 0 ||
+      filters.categories.map((cat) => cat.toLowerCase()).includes(product.category?.toLowerCase());
+
+    const matchBrand =
+      filters.brands.length === 0 ||
+      filters.brands.includes(product.brand);
+
+    const matchPrice = !isNaN(parsedPrice) && parsedPrice <= filters.price;
+
+    return matchCategory && matchBrand && matchPrice;
+  });
+
+  const displayedProducts = isProductPage ? filteredProducts.slice(0, 6) : filteredProducts;
 
   return (
-    <section className="container pb-5">
+    <section className="container">
       <div className={className}>
         {displayedProducts.map((product) => (
           <div key={product.id} className="col">
@@ -44,7 +58,7 @@ const Cards = ({ isProductPage = false, className="row row-cols-2 row-cols-md-4 
                 </div>
               </div>
             </Link>
-            <CustomButtons className="btn btn-dark my-2 w-100"/>
+            <CustomButtons className="btn btn-dark my-2 w-100" />
           </div>
         ))}
       </div>
