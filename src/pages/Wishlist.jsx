@@ -26,7 +26,7 @@ const Wishlist = () => {
                 <tr>
                   <td className="d-flex align-items-center">
                     <img
-                      src="/side-shop-ecommerce/categories/cpu.jpg"
+                      src="/categories/cpu.jpg"
                       alt="CPU"
                       className="img-thumbnail"
                     />
@@ -41,7 +41,7 @@ const Wishlist = () => {
                 <tr>
                   <td className="d-flex align-items-center">
                     <img
-                      src="/side-shop-ecommerce/categories/storage.jpg"
+                      src="/categories/storage.jpg"
                       alt="Storage"
                       className="img-thumbnail"
                     />
@@ -56,7 +56,7 @@ const Wishlist = () => {
                 <tr>
                   <td className="d-flex align-items-center">
                     <img
-                      src="/side-shop-ecommerce/categories/gpu.jpg"
+                      src="/categories/gpu.jpg"
                       alt="GPU"
                       className="img-thumbnail"
                     />

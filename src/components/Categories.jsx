@@ -36,61 +36,61 @@ return (
         >
             <SwiperSlide className="card shadow text-center text-black">
                 <Link to="/shop" className="text-decoration-none">
-                    <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/cpu.jpg" alt="CPU" />
+                    <img className="img-fluid rounded-2" src="/categories/cpu.jpg" alt="CPU" />
                     <h6 className="pb-2 text-black">CPU</h6>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop" className="text-decoration-none">
-                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/gpu.jpg" alt="GPU" />
+                <img className="img-fluid rounded-2" src="/categories/gpu.jpg" alt="GPU" />
                 <h6 className="pb-2 text-black">GPU</h6>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop" className="text-decoration-none">
-                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/laptop.jpg" alt="Laptop" />
+                <img className="img-fluid rounded-2" src="/categories/laptop.jpg" alt="Laptop" />
                 <h6 className="pb-2 text-black">Laptop</h6>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop" className="text-decoration-none">
-                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/mobo.jpg" alt="MOBO" />
+                <img className="img-fluid rounded-2" src="/categories/mobo.jpg" alt="MOBO" />
                 <h6 className="pb-2 text-black">Motherboard</h6>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop" className="text-decoration-none">
-                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/monitor.jpg" alt="Monitor" />
+                <img className="img-fluid rounded-2" src="/categories/monitor.jpg" alt="Monitor" />
                 <h6 className="pb-2 text-black">Monitor</h6>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop" className="text-decoration-none">
-                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/ram.jpg" alt="RAM" />
+                <img className="img-fluid rounded-2" src="/categories/ram.jpg" alt="RAM" />
                 <h6 className="pb-2 text-black">RAM</h6>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop" className="text-decoration-none">
-                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/storage.jpg" alt="Storage" />
+                <img className="img-fluid rounded-2" src="/categories/storage.jpg" alt="Storage" />
                 <h6 className="pb-2 text-black">Storage</h6>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop" className="text-decoration-none">
-                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/case.jpg" alt="Case" />
+                <img className="img-fluid rounded-2" src="/categories/case.jpg" alt="Case" />
                 <h6 className="pb-2 text-black">Case</h6>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop" className="text-decoration-none">
-                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/fans.jpg" alt="Fans" />
+                <img className="img-fluid rounded-2" src="/categories/fans.jpg" alt="Fans" />
                 <h6 className="pb-2 text-black">Fans</h6>
                 </Link>
             </SwiperSlide>
             <SwiperSlide className="card shadow text-center">
                 <Link to="/shop" className="text-decoration-none">
-                <img className="img-fluid rounded-2" src="/side-shop-ecommerce/categories/psu.jpg" alt="Psu" />
+                <img className="img-fluid rounded-2" src="/categories/psu.jpg" alt="Psu" />
                 <h6 className="pb-2 text-black">PSU</h6>
                 </Link>
             </SwiperSlide>

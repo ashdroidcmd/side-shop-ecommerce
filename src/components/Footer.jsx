@@ -10,7 +10,7 @@ return (
                 
                 <div className="col-md-6 mb-3 text-white">
                     <Link to="/" className="d-flex align-items-center mb-3">
-                        <img className="img-fluid" id="footer-logo" src="/side-shop-ecommerce/logo-white.png"/>
+                        <img className="img-fluid" id="footer-logo" src="/logo-white.png"/>
                     </Link>
                     <p className="mb-1">Bohol, Philippines</p>
                     <h4>0991 234 5678</h4>

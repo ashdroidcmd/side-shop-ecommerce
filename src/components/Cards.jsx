@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 import { db } from "../firebase";
 import { collection, getDocs } from "firebase/firestore";
@@ -59,8 +59,7 @@ const Cards = ({
               <div className="card shadow">
                 <img
                   src={
-                    `/side-shop-ecommerce/${product.images?.[0]}` ||
-                    "/placeholder.jpg"
+                    `${product.images?.[0]}`
                   }
                   className="card-img-top img-fluid"
                   alt={product.name}

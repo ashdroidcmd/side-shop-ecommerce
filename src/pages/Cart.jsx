@@ -30,7 +30,7 @@ return (
                         <tr>
                         <td className="d-flex align-items-center">
                             <img
-                            src="/side-shop-ecommerce/categories/cpu.jpg"
+                            src="/categories/cpu.jpg"
                             alt="CPU"
                             className="img-thumbnail"                            />
                             <span className="ms-3">Ryzen 3 3200G</span>
@@ -51,7 +51,7 @@ return (
                         <tr>
                         <td className="d-flex align-items-center">
                             <img
-                            src="/side-shop-ecommerce/categories/storage.jpg"
+                            src="/categories/storage.jpg"
                             alt="CPU"
                             className="img-thumbnail"                            />
                             <span className="ms-3">Samsung 500GB NVME M.2</span>
@@ -72,7 +72,7 @@ return (
                         <tr>
                         <td className="d-flex align-items-center">
                             <img
-                            src="/side-shop-ecommerce/categories/gpu.jpg"
+                            src="/categories/gpu.jpg"
                             alt="CPU"
                             className="img-thumbnail"                            />
                             <span className="ms-3">ASUS Nvidia RTX 3070</span>

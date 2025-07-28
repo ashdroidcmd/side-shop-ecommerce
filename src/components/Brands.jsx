@@ -1,5 +1,3 @@
-import React from 'react';
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
@@ -37,52 +35,52 @@ return (
         className="container bg-white rounded-5"
     >
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/acer.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/acer.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/asus.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/asus.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/dell.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/dell.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/lenovo.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/lenovo.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/logitech.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/logitech.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/msi.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/msi.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/razer.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/razer.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/rog.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/rog.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/steelseries.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/steelseries.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/alienware.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/alienware.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/coolermaster.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/coolermaster.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/corsair.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/corsair.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/hyperx.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/hyperx.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/sennheiser.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/sennheiser.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/wd.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/wd.png" alt="" />
         </SwiperSlide>
         <SwiperSlide className="logo-slide">
-            <img className="img-fluid logo-img" src="/side-shop-ecommerce/brands/zowie.png" alt="" />
+            <img className="img-fluid logo-img" src="/brands/zowie.png" alt="" />
         </SwiperSlide>
     </Swiper>
 )
